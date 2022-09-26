@@ -1,16 +1,16 @@
 from Artist import Artist
 from Performance import Performance
-
+import Datetime
 class Show:
 
-    __date : str
+    __date : date
     __hour : str
     __name : str
     __location: []
     __artist: [Artist]
     __performance: [Performance]
 
-    def __init__(self,name: str, date : str, hour: str):
+    def __init__(self,name: str, date : date , hour: str):
             self.__date = date
             self.__name = name
             self.__hour = hour

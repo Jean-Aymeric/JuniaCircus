@@ -6,6 +6,6 @@ class Ringmaster(Artist):
         Artist.__init__(self, name)
 
     def perform(self) -> str:
-        return self.getname, ("SALUT A TOUTES ET A TOUS ON VA FAIRE DU CIRQUE")
+        return self.getName()+ ("SALUT A TOUTES ET A TOUS ON VA FAIRE DU CIRQUE")
 
 

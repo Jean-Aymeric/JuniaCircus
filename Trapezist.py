@@ -6,4 +6,4 @@ class Trapezist(Artist):
         Artist.__init__(self, name)
 
     def perform(self) -> str:
-        return self.getname, ("JE FAIS DU TRAPEZE LEEEET'S GOOO")
+        return self.getName()+ ("JE FAIS DU TRAPEZE LEEEET'S GOOO")

@@ -6,4 +6,4 @@ class Tamer(Artist):
         Artist.__init__(self, name)
 
     def perform(self) -> str:
-        return self.getname, ("ROAR ROAR MEOW MEOW GRRRR GRGRRRR")
+        return self.getName()+ ("ROAR ROAR MEOW MEOW GRRRR GRGRRRR")

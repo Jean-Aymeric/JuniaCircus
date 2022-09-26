@@ -6,4 +6,4 @@ class Acrobat(Artist):
         Artist.__init__(self, name)
 
     def perform(self) -> str:
-        return self.getname, ("VROUM VROUM LES ACROBATIES")
+        return self.getName()+ ("VROUM VROUM LES ACROBATIES")

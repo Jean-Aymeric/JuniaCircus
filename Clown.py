@@ -6,4 +6,4 @@ class Clown(Artist):
         Artist.__init__(self, name)
 
     def perform(self) -> str:
-        return self.getname, ("JE SUIS UN CLOWN OUGA OUGA LE CLOWN DROLE")
+        return self.getName()+ ("JE SUIS UN CLOWN OUGA OUGA LE CLOWN DROLE")

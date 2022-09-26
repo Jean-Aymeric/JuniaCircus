@@ -10,7 +10,7 @@ class Show:
     __artist: [Artist]
     __performance: [Performance]
 
-    def __init__(self,name: str, date : date , hour: str):
+    def __init__(self,name: str, date : date , hour: datetime):
             self.__date = date
             self.__name = name
             self.__hour = hour

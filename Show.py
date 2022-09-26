@@ -4,7 +4,7 @@ import Datetime
 class Show:
 
     __date : date
-    __hour : str
+    __hour : datetime
     __name : str
     __location: []
     __artist: [Artist]

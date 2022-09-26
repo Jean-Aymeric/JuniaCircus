@@ -16,3 +16,4 @@ import Show from Show
     def addShows(self, show:Show ):
         if show not in self.__shows:
             self.__shows.append(show)
+            show.addLocation(self)
